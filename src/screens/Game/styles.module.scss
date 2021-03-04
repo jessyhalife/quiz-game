@@ -1,0 +1,89 @@
+.container {
+  background-color: whitesmoke;
+  border-radius: 16px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+  box-sizing: border-box;
+  padding: 24px;
+  height: 80%;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  margin-top: -44px;
+  margin-bottom: 16px;
+  background: white;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px rgba(185, 185, 185, 0.1);
+  font-size: 16px;
+  font-weight: 200;
+}
+.category {
+  font-size: 16px;
+  margin: 4px auto;
+}
+
+.difficulty {
+  font-size: 14px;
+  margin: 8px auto;
+  font-weight: 500;
+}
+.question {
+  font-size: 24px;
+  padding: 8px 48px;
+  font-weight: 700;
+  margin: 16px auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  margin: 16px 0px;
+  text-align: center;
+  align-items: center;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  div {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 24px 0px;
+  }
+  button {
+    font-size: 16px;
+    padding: 16px;
+    font-weight: bold;
+    border: 1px solid rgba(20, 149, 255, 0.7);
+    background-color: rgb(20, 149, 255);
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+}
+
+.play {
+  font-size: 16px;
+  padding: 16px;
+  font-weight: bold;
+  border: 1px solid rgba(144, 238, 144, 0.7);
+  background-color: lightgreen;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

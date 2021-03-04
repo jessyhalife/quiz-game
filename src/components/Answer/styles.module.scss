@@ -1,0 +1,17 @@
+.answer {
+  padding: 8px;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  &:hover{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+}
+
+.right {
+  background-color: lightgreen;
+}
+
+.wrong {
+  background-color: lightcoral;
+}
